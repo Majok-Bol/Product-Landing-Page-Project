@@ -1,0 +1,37 @@
+body {
+  background-color: #eeeeee;
+}
+main {
+  left: 30%;
+  right: 40%;
+  position: relative;
+}
+#header-img {
+  width: 28%;
+  margin: 0 auto;
+  margin-top: 0.55rem;
+}
+a {
+  display: flex;
+  text-decoration: none;
+}
+li {
+  list-style: none;
+  text-decoration: none;
+}
+.nav-link {
+  font-size: 18px;
+}
+#nav-section {
+  display: flex;
+}
+.list-item {
+  display: flex;
+  gap: 2rem;
+}
+.item-container {
+  margin-top: -0.65rem;
+}
+#email {
+  width: 20%;
+}
