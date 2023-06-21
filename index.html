@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Product Landing Page</title>
-    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header id="header">
@@ -22,17 +22,17 @@
             <ul class="list-item">
               <div>
                 <li class="item">
-                  <a href="#Features" class="nav-link">Features</a>
+                  <a href="#features" class="nav-link">Features</a>
                 </li>
               </div>
               <div>
                 <li class="item">
-                  <a href="#How_it_works" class="nav-link">How it works</a>
+                  <a href="#how-it-works" class="nav-link">How it works</a>
                 </li>
               </div>
               <div>
                 <li class="item">
-                  <a href="#Pricing" class="nav-link">Pricing</a>
+                  <a href="#pricing" class="nav-link">Pricing</a>
                 </li>
               </div>
             </ul>
@@ -45,11 +45,12 @@
         <div>
           <h1>Handcrafted,home-made masterpieces</h1>
         </div>
-        <form>
+        <form action="https://www.freecodecamp.com/email-submit)" id="form">
           <input
             type="email"
             name="email"
             placeholder="Enter your email address"
+            id="submit"
           />
           <button type="submit" class="button">GET STARTED</button>
         </form>
@@ -84,7 +85,7 @@
           </div>
         </div>
       </section>
-      <section id="video">
+      <section id="section-video">
         <div id="how-it-works">
           <iframe
             width="560"
@@ -94,11 +95,12 @@
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen
+            id="video"
           ></iframe>
         </div>
       </section>
-      <section class="pricing">
-        <div id="pricing-container">
+      <section class="section-pricing">
+        <div id="pricing">
           <div id="pricing-head">
             <h3 class="pricing-head1">TENOR TROMBONE</h3>
           </div>
@@ -153,7 +155,7 @@
         </div>
       </section>
     </main>
-    <section id="footer">
+    <section id="section-footer">
       <footer>
         <div class="item-container">
           <ul class="list-item">
