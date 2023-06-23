@@ -29,9 +29,6 @@ li {
   display: flex;
   gap: 2rem;
 }
-.item-container {
-  margin-top: -0.65rem;
-}
 #email {
   width: 60%;
 }
@@ -56,8 +53,46 @@ i {
   font-size: 3rem;
   color: #ff8c00;
 }
+#card {
+  border-style: solid;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width:22%;
+  padding-bottom: 1rem;
+}
 #pricing {
-    display:flex;
-    gap:3rem;
+  display: flex;
+  width: 80%;
+  justify-content: space-around;
+  margin-top: 2rem;
+  margin-bottom:3rem;
 
+}
+.button-select{
+  background-color: #FBAD04;
+  border-style: hidden;
+  border-radius: 5px;
+  padding:1rem;
+
+}
+#pricing-head {
+  background-color: gainsboro;
+  width:100%;
+text-align: center;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width:68%;
+  margin: auto;
+  background-color: gainsboro;
+  padding:1rem;
+
+}
+.footer-items {
+display: flex;
+gap:2rem;
 }
